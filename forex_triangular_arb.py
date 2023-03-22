@@ -1,9 +1,3 @@
-"""
-Now please combine the two code examples in this conversation, being Triangular Arbitrage and Bid Ask Price fetching from Oanda, 
-to create a python triangular arbitrage trading bot for trading profitable triangular arbitrage opportunities between all possible 3-way combinations
-of the tradable forex instruments on Oanda. Please set a profitability threshold of at least N pips after deducting the commission paid to Oanda from each side of the trades, because Oanda charge commissions on both sides of the trades for 5 usd per 100k unit, i.e. a standard lot traded. A stanalone trade execution function is required for clean structure of the code.
-"""
-
 import requests
 import itertools
 
